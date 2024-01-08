@@ -36,6 +36,7 @@ El problema a resolver para abordar la resolución de la práctica es **el pron�
 ### Fuente de datos 
 
 El dataset utilizado para realizar el análisis se encuentra a través del siguiente enlace: [Fuente de datos](https://www.kaggle.com/code/chirag9073/diabetes-using-deep-learning/notebook)
+*Nota: para descargar el dataset completo es necesario acceder a la pestaña input.*
 
 ### Preprocesado de datos
 
