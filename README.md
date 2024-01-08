@@ -1,8 +1,8 @@
 # Practica3_aprendizaje_automatico
 
-### Enunciado: Práctica de aprendizaje automático
+## Enunciado: Práctica de aprendizaje automático
 
-### Pasos a realizar 
+## Pasos a realizar 
 Los pasos a realizar son los que se muestran a continuación:
 
 1. Elegir el problema. La predicción de resultados de partidos en la ATP o en la WTA de tenis, una liga deportiva, una competición de deporte electrónico, o cualquier otro problema del que se dispongan de datos suficientes como para aplicar algoritmos de aprendizaje automático.
@@ -19,7 +19,7 @@ Los pasos a realizar son los que se muestran a continuación:
 
 7. Implementar un prototipo de aplicación que consulte el objeto persis-tente generado en el paso 6. La aplicación cargará en memoria el objeto persistente, que tendrá como responsabilidad la resolución del problema propuesto (p.ej. el pronóstico de un resultado deportivo), e interactuará con el usuario a través de una interfaz (que puede ser de texto) (véase la figura 1.2).
 
-### Material a entregar
+## Material a entregar
 
 Deberá ser el siguiente:
 
@@ -29,17 +29,17 @@ Deberá ser el siguiente:
 
 3. El fichero .arff.
 
-### Resolución de la práctica
+## Resolución de la práctica
 
 El problema a resolver para abordar la resolución de la práctica es **el pronóstico de pacientes diabetéticos** en base a una serie de atributos que se comentarán a continuación.
 
-### Fuente de datos 
+## Fuente de datos 
 
 El dataset utilizado para realizar el análisis se encuentra a través del siguiente enlace: [Fuente de datos](https://www.kaggle.com/code/chirag9073/diabetes-using-deep-learning/notebook)
 
 *Nota: para descargar el dataset completo es necesario acceder a la pestaña input.*
 
-### Preprocesado de datos
+## Preprocesado de datos
 
 Observando los datos, se intuye que hay ciertos valores de atributos que deben ser modificados y, por tanto, filas que deben ser eliminadas:
 
@@ -52,7 +52,7 @@ Por otro lado, se ha transformado la variable numérica _Outcome_ a una variable
 
 Terminado este proceso, se convierte el fichero .csv a .arff para abordar la solución de la práctica tal y como indica el enunciado.
 
-### Evaluación de distintos modelos de aprendizaje automático 
+## Evaluación de distintos modelos de aprendizaje automático 
 
 Para abordar esta tarea, se hace uso de la herramienta **Weka** que nos permite aplicar diversos algoritmos de *Machine Learning* para averiguar cuál de ellos nos proporciona una mayor precisión y alcance para la evaluación de modelo.
 
@@ -68,7 +68,7 @@ Para abordar esta tarea, se hace uso de la herramienta **Weka** que nos permite 
 
 <img width="768" alt="Captura de pantalla 2024-01-08 a las 19 34 41" src="https://github.com/pablogaraay/Practica3_aprendizaje_automatico/assets/144778608/247cc5cb-ce4f-4248-b34b-157e41eef20a">
 
-### Solución
+## Solución
 
 Tras aplicar los 3 modelos vistos en clase, se aplica el modelo ***RandomForest***, dado que la media agregada entre las variables precisión y alcance es la que más se aproxima a 1. 
 
