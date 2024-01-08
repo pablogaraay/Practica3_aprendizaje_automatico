@@ -1,0 +1,17 @@
+@RELATION test 
+
+@ATTRIBUTE Pregnancies NUMERIC
+@ATTRIBUTE Glucose NUMERIC
+@ATTRIBUTE BloodPressure NUMERIC
+@ATTRIBUTE SkinThickness NUMERIC
+@ATTRIBUTE Insulin NUMERIC
+@ATTRIBUTE BMI NUMERIC
+@ATTRIBUTE DiabetesPedigreeFunction NUMERIC
+@ATTRIBUTE Age NUMERIC
+@ATTRIBUTE Outcome {diabetes,no_diabetes}
+
+@DATA
+2,138,62,35,0,336,127,47,?
+%
+%
+%
