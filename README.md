@@ -70,7 +70,7 @@ Para abordar esta tarea, se hace uso de la herramienta **Weka** que nos permite 
 
 ## Solución
 
-Tras aplicar los 3 modelos vistos en clase, se aplica el modelo ***RandomForest***, dado que la media agregada entre las variables precisión y alcance es la que más se aproxima a 1. 
+Tras aplicar los 3 modelos vistos en clase, se aplica el modelo ***RandomForest***, dado que la media agregada entre las variables precisión y alcance es la que más se aproxima a 1. Este valor se obtiene gracias a la variable *F-Measure*.
 
 
 
